@@ -9,4 +9,47 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+img {
+  height: 25rem;
+  width: 25rem;
+}
+
+.margin {
+  margin-top: 5rem;
+}
+
+.nav-bar-main {
+  display: flex;
+  border-bottom: .05rem solid gray
+}
+
+.nav-bar-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar-two {
+  display: flex;
+}
+
+.test {
+  margin-left: 1rem;
+}
+
+.test2 {
+  margin-left: 66rem;
+}
+
+h5 {
+  margin-left: 1rem;
 }

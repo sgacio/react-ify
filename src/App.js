@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import NavBar from './components/NavBar'
+// import GeneratePhotos from './components/GeneratePhotos'
+import MakePartTwo from './components/MakePartTwo'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <main>
+        <NavBar />
+        <MakePartTwo />
+      </main>
+    )
   }
 }
 
